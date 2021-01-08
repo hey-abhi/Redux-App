@@ -2,11 +2,11 @@ const initialState = 0;
 
 const reducerfunction = (state = initialState, action) => {
     switch (action.type) {
-        case "INCREMENT_ONE":
+        case "INCREMENT_BY_ONE":
             return state + 1
-        case "DECREMENT_ONE":
+        case "DECREMENT_BY_ONE":
             return state - 1
-        case "RESET":
+        case "RESET_COUNT":
             return 0
         default : 
             return state
